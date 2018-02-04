@@ -1,7 +1,7 @@
-s=int(input("Enter salary: "))
+s = int(input("Enter salary: "))
 
-p=0.00
-if(s<1500):
+p = 0.00
+if s<1500:
 	print(float(2*s+p))
 else:
 	print(1.98*s+500)
