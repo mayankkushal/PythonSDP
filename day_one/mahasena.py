@@ -2,7 +2,7 @@ n = int(input("Enter n: "))
 lucky = 0
 unlucky = 0
 for i in range(0,n):
-	weapons = int(input("Number of weapons that the ith soldier is holding: "))
+	weapons = int(input("Number of weapons that the %d soldier is holding: " % (i)))
 	if weapons % 2 == 0:
 		lucky += 1
 	else: 
